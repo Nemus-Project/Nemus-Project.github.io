@@ -18,6 +18,9 @@ To make changes, update the MATLAB code and republish this document.
 <body>
     <div class="content">
         <h1>YOUNGCALC: Young's Modulus from measured modal frequencies</h1>
+        <pre class="codeinput"><span class="comment">% YOUNGCALC: Calculate Young's Modulus from measured modal frequencies</span>
+            <span class="comment">%      E  = YOUNGCALC(rho,ldim,h,BCs,ExpFreq,Ntrain)</span>
+            </pre>
         <h2>Contents</h2>
         <div>
             <ul>
@@ -27,9 +30,6 @@ To make changes, update the MATLAB code and republish this document.
                 <li><a href="#6">Initial Parameters</a></li>
             </ul>
         </div>
-        <pre class="codeinput"><span class="comment">% YOUNGCALC: Calculate Young's Modulus from measured modal frequencies</span>
-<span class="comment">%      E  = YOUNGCALC(rho,ldim,h,BCs,ExpFreq,Ntrain)</span>
-</pre>
         <h2 id="2">Overview</h2>
         <p>YOUNGCALC is a function that returns Young's modulus (E) of an experimental plate starting from a batch of
             experimentally measured frequencies, leveraging MAGPIE</p>
